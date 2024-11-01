@@ -1,0 +1,19 @@
+<div class="section">
+    <h2>Food</h2>
+    <form (ngSubmit)="next()">
+      <label>
+        <input type="radio" name="food" [(ngModel)]="food" value="1" /> I eat only vegan food.
+      </label>
+      <label>
+        <input type="radio" name="food" [(ngModel)]="food" value="2" /> I mostly eat vegetarian food.
+      </label>
+      <label>
+        <input type="radio" name="food" [(ngModel)]="food" value="3" /> I eat meat every other day on average.
+      </label>
+      <label>
+        <input type="radio" name="food" [(ngModel)]="food" value="4" /> I eat meat at almost every meal.
+      </label>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  

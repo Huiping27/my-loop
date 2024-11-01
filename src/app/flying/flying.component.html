@@ -1,0 +1,19 @@
+<div class="section">
+    <h2>Flying</h2>
+    <form (ngSubmit)="next()">
+      <label>
+        <input type="radio" name="flying" [(ngModel)]="flying" value="1" /> I never fly privately.
+      </label>
+      <label>
+        <input type="radio" name="flying" [(ngModel)]="flying" value="2" /> I fly privately once or twice a year within Europe.
+      </label>
+      <label>
+        <input type="radio" name="flying" [(ngModel)]="flying" value="3" /> I fly long haul privately about once a year (or about four times within Europe).
+      </label>
+      <label>
+        <input type="radio" name="flying" [(ngModel)]="flying" value="4" /> I fly long haul privately two or three times a year (or regularly).
+      </label>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  

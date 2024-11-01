@@ -1,0 +1,19 @@
+<div class="section">
+    <h2>Shopping, Leisure, Culture</h2>
+    <form (ngSubmit)="next()">
+      <label>
+        <input type="radio" name="shopping" [(ngModel)]="shopping" value="1" /> I purchase new clothing, devices and furniture very rarely. Expenses for leisure time, culture and health are below average.
+      </label>
+      <label>
+        <input type="radio" name="shopping" [(ngModel)]="shopping" value="2" /> I purchase half of my clothing, devices and furniture second-hand. Expenses for leisure time, culture and health are slightly below average.
+      </label>
+      <label>
+        <input type="radio" name="shopping" [(ngModel)]="shopping" value="3" /> I occasionally purchase new clothing, devices and furniture. Expenses for leisure time, culture and health are average.
+      </label>
+      <label>
+        <input type="radio" name="shopping" [(ngModel)]="shopping" value="4" /> I frequently purchase new clothing, devices and furniture. Expenses for leisure time, culture and health are slightly above average.
+      </label>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  

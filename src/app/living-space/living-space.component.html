@@ -1,0 +1,13 @@
+<div class="section">
+    <h2>Living Space</h2>
+    <form (ngSubmit)="calculate()">
+      <label>
+        <input type="radio" name="livingSpace" [(ngModel)]="livingSpace" value="1" /> I live in a small space (e.g., a flat with several people).
+      </label>
+      <label>
+        <input type="radio" name="livingSpace" [(ngModel)]="livingSpace" value="2" /> I live in a large area (e.g., detached house).
+      </label>
+      <button type="submit">Calculate</button>
+    </form>
+  </div>
+  
